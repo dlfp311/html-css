@@ -1,0 +1,31 @@
+.group {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  width: 200px;
+  padding: 15px 10px 15px 10px;
+  border-radius: 6px;
+}
+
+.sofa {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.name {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.price {
+  font-size: 18px;
+  color: green;
+  font-weight: bold;
+}
+
+.icon {
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  padding: 2px 4px 4px 4px;
+}

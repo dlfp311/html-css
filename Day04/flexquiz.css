@@ -1,0 +1,38 @@
+.con {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.mini {
+  width: 100px;
+  height: 100px;
+}
+
+.mini a {
+  background-color: #cd84f1;
+}
+.mini b {
+  background-color: #c56cf0;
+}
+.mini c {
+  background-color: #c56cf0;
+}
+
+.mini d {
+  background-color: #32ff7e;
+}
+.mini e {
+}
+.mini f {
+}
+.mini g {
+}
+.mini h {
+}
