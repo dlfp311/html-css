@@ -1,0 +1,15 @@
+.cont {
+  width: 50vw;
+  height: 50vh;
+  border: 5px solid hotpink;
+  display: flex;
+  flex-direction: row;
+  justify-content: START;
+  align-items: center;
+}
+
+.box {
+  width: 10%;
+  height: 10%;
+  border: 3px solid black;
+}
