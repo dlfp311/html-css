@@ -1,0 +1,43 @@
+body {
+  height: 300vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+}
+
+.a {
+  background-color: #ff9f43;
+}
+.b {
+  background-color: #54a0ff;
+}
+
+.c {
+  background-color: #ee5253;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+.d {
+  background-color: #5f27cd;
+  position: relative;
+}
+span { color: white;
+font-weight: bold;}
+
+.d > span {position: absolute;
+  bottom: 10px;
+  right: 10px;
+}}
