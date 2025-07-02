@@ -1,0 +1,18 @@
+button {
+  width: 150px;
+  height: 36px;
+  height: 36px;
+  border: 2px solid orange;
+  border-radius: 4px;
+  color: orange;
+  background-color: transparent;
+  transition: all 0.5s;
+  padding: 5px 20px 6px 20px;
+}
+
+button:hover {
+  background-color: orange;
+  color: white;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}

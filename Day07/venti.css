@@ -1,0 +1,17 @@
+section {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+button {
+  background-color: transparent;
+  border: none;
+  border-radius: 10px;
+  padding: 3px 8px 3px 8px;
+  transition: all 0.5s;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
