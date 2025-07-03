@@ -1,0 +1,12 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: hotpink;
+  transition: all 0.5s;
+}
+
+.box:hover {
+  /* transform: rotate(45deg); */
+  /* transform: scale(2); */
+  /* transform: translate(x축,y축); */
+}

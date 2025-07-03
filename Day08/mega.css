@@ -1,0 +1,43 @@
+section {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 200px;
+  height: 270px;
+  overflow: hidden;
+}
+
+.menu > img {
+  width: 100%;
+  height: 100%;
+  border: none;
+  object-fit: cover;
+  transition: all 0.2s;
+}
+
+.menu > img:hover {
+  transform: scale(1.1);
+}
+.menu > span {
+  position: absolute;
+  right: 10px;
+  bottom: 20px;
+  background-color: blue;
+  color: white;
+  padding: 6px 9px 9px 9px;
+  border: none;
+  border-radius: 15px;
+  font-size: 13px;
+}
+
+.name {
+  font-size: 16px;
+}
