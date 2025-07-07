@@ -1,0 +1,11 @@
+section {
+  width: 100vw;
+  height: 100vh;
+  background-color: hotpink;
+}
+@media screen and (max-width: 700px) {
+  section {
+    height: 50vh;
+    background-color: blueviolet;
+  }
+}
