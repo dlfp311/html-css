@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "printingboxBold";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2507-1@1.0/printingboxBold.woff2")
+    format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+
+.first {
+  height: 100vh;
+  background-image: url(clothes.jpg);
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.first > .contents {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.first > .contents > h2 {
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  line-height: 1.5;
+  font-family: printingboxBold;
+}
+
+@media screen and (max-width: 760px) {
+  .first > .contents > h2 {
+    font-size: 38px;
+  }
+}

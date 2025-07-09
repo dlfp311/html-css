@@ -1,0 +1,83 @@
+.third {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.third > .contents {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.third > .contents > h4 {
+  font-size: 14px;
+  color: #757575;
+
+  margin-bottom: 10px;
+  font-family: printingboxBold;
+}
+
+.third > .contents > .motto {
+  color: black;
+  font-size: 28px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.third > .contents > .container {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.third > .contents > .container > .box {
+  width: 100%;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 1.7;
+  background-size: cover;
+  font-family: printingboxBold;
+}
+
+.third > .contents > .container > .a {
+  background-image: url(image1.jfif);
+}
+.third > .contents > .container > .b {
+  background-image: url(image2.jfif);
+}
+
+.third > .contents > .container > .box > h5 {
+  color: white;
+  font-size: 14px;
+}
+
+.third > .contents > .container > .box > .info {
+  font-size: 20px;
+}
+
+.third > .contents > .container > .box > button {
+  padding: 8px;
+  border: 1px solid gray;
+  font-size: 12px;
+  border-radius: 25px;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 760px) {
+  .third > .contents {
+    max-width: 400px;
+    text-align: center;
+  }
+
+  .third > .contents > .container {
+    display: flex;
+    flex-direction: column;
+  }
+}

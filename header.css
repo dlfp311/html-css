@@ -1,6 +1,11 @@
 header {
   padding: 30px 0px;
   border-bottom: 1px solid #efefef;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: white;
+  z-index: 10;
 }
 
 nav {
@@ -9,10 +14,9 @@ nav {
   margin: 0 auto;
   display: flex;
   flex-direction: row;
-  display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding: 14px 16px;
 }
 
 .links {
@@ -22,7 +26,7 @@ nav {
   gap: 10px;
 }
 
-.links > button {
+.links > li {
   border: none;
   padding: 14px 16px;
   border-radius: 20px;
@@ -30,10 +34,23 @@ nav {
   font-weight: bold;
 }
 
-.link > button:hover {
+.link > li:hover {
   background-color: #efefef;
 }
 
 .pink {
   color: #ff5160;
+}
+
+header > nav > .hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 760px) {
+  header > nav > .links {
+    display: none;
+  }
+  header > nav > .hamburger {
+    display: block;
+  }
 }
